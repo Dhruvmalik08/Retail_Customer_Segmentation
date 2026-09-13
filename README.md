@@ -95,11 +95,7 @@ from running them against the full 3,900-row dataset.
 
 ## Dashboard
 
-`Dashboard.pbix` visualizes the segmentation and revenue findings above for
-stakeholder review. *(Currently based on the base analysis; segmentation-specific
-visuals — value-tier matrix, revenue concentration chart, at-risk customer table —
-are a planned next iteration.)*
-
+`Dashboard.pbix` is an interactive Power BI report summarizing customer behavior at a glance — KPI cards for total customers and average purchase amount, a subscription status breakdown, revenue and order volume by category, and demographic trends by age group. Slicers for category, gender, subscription status, and shipping type let users filter the view interactively. 
 ## How to Run
 
 1. Install PostgreSQL and create a database named `customer_behavior`.

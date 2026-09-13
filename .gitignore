@@ -216,3 +216,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Environment / secrets
+.env
+config.py
+credentials.py
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
